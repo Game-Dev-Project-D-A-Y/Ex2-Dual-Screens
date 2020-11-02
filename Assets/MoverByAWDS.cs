@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /**
- * 
+ * This component is responsible for moving the object using the A S D W  keys .
  */
 
 public class MoverByAWDS : MonoBehaviour

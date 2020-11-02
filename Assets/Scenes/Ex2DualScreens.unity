@@ -328,15 +328,15 @@ RectTransform:
   m_GameObject: {fileID: 853162924}
   m_LocalRotation: {x: -0, y: 0, z: 0.0124533465, w: 0.99992245}
   m_LocalPosition: {x: 0, y: 0, z: -4.6522555}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 1854475525}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.78, y: 6.28}
-  m_SizeDelta: {x: 13.450145, y: 0.9626982}
+  m_AnchoredPosition: {x: -5.52, y: 5.75}
+  m_SizeDelta: {x: 12.444, y: 1.2257044}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &853162926
 MonoBehaviour:
@@ -420,7 +420,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0.21665151, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -633,8 +633,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569768951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.873, y: -0.765, z: 0}
-  m_LocalScale: {x: 0.8635822, y: 0.40699235, z: 1}
+  m_LocalPosition: {x: 1.741, y: -0.473, z: 0}
+  m_LocalScale: {x: 0.938462, y: 0.42147297, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -853,8 +853,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.45, y: 3.29}
-  m_SizeDelta: {x: 6.516361, y: 1.3404083}
+  m_AnchoredPosition: {x: -2.83, y: 2.92}
+  m_SizeDelta: {x: 12.660952, y: 1.6441045}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1939665761
 MonoBehaviour:
@@ -889,7 +889,7 @@ MonoBehaviour:
     rgba: 4278650631
   m_fontColor: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 1}
   m_enableVertexGradient: 1
-  m_colorMode: 3
+  m_colorMode: 1
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
     topRight: {r: 1, g: 1, b: 1, a: 1}
