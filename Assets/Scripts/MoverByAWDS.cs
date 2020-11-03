@@ -9,6 +9,7 @@ using UnityEngine;
 public class MoverByAWDS : MonoBehaviour
 {
 
+    [Tooltip("Change step size")]
     [SerializeField]
     float step = 0.05f;
 

@@ -5,16 +5,15 @@ using UnityEngine;
 /**
  * This component is responsible for moving the object using the Arrows keys .
  */
-
 public class MoverByArrows : MonoBehaviour
 {
-
+    
+    [Tooltip("Change step size")]
     [SerializeField]
     float step = 0.05f;
-    
+
     void Start()
     {
-
     }
 
     void Update()
@@ -24,7 +23,7 @@ public class MoverByArrows : MonoBehaviour
             transform.position += new Vector3(0, step, 0);
             Debug.Log("up");
         }
-        
+
         if (Input.GetKey(KeyCode.DownArrow))
         {
             transform.position -= new Vector3(0, step, 0);
