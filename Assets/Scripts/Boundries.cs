@@ -28,11 +28,6 @@ public class Boundries : MonoBehaviour
         float mazeScaleX = mazeRect.transform.localScale.x;
         float mazeScaleY = mazeRect.transform.localScale.y;
 
-        Debug.Log("mazeWidth: " + mazeWidth);
-        Debug.Log("mazeHeight: " + mazeHeight);
-        Debug.Log("mazeScaleX: " + mazeScaleX);
-        Debug.Log("mazeScaleY: " + mazeScaleY);
-
         rightLimit = ( (mazeWidth * mazeScaleX) / 2 - mazeScaleX / (mazeWidth * 2) ) / 2.2f;
         leftLimit = -1 * rightLimit;
 

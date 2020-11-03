@@ -10,11 +10,11 @@ public class MoverByArrows : MonoBehaviour
 {
 
     [SerializeField]
-    float step;
+    float step = 0.05f;
     
     void Start()
     {
-        step = 0.05f;
+
     }
 
     void Update()
@@ -24,22 +24,23 @@ public class MoverByArrows : MonoBehaviour
             transform.position += new Vector3(0, step, 0);
             Debug.Log("up");
         }
+        
         if (Input.GetKey(KeyCode.DownArrow))
         {
             transform.position -= new Vector3(0, step, 0);
             Debug.Log("down");
         }
+
         if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.position += new Vector3(step, 0, 0);
             Debug.Log("right");
         }
+
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.position -= new Vector3(step, 0, 0);
             Debug.Log("left");
-
         }
-
     }
 }

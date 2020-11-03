@@ -10,11 +10,11 @@ public class MoverByAWDS : MonoBehaviour
 {
 
     [SerializeField]
-    float step;
+    float step = 0.05f;
 
     void Start()
     {
-        step = 0.05f;
+        
     }
 
     void Update()
@@ -22,23 +22,21 @@ public class MoverByAWDS : MonoBehaviour
         if (Input.GetKey("w"))
         {
             transform.position += new Vector3(0, step, 0);
-            Debug.Log("up");
         }
+
         if (Input.GetKey("s"))
         {
             transform.position -= new Vector3(0, step, 0);
-            Debug.Log("down");
         }
+
         if (Input.GetKey("d"))
         {
             transform.position += new Vector3(step, 0, 0);
-            Debug.Log("right");
         }
+        
         if (Input.GetKey("a"))
         {
             transform.position -= new Vector3(step, 0, 0);
-            Debug.Log("left");
-
         }
 
     }
