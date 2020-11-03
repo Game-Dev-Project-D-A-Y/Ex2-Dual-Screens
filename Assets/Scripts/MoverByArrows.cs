@@ -8,9 +8,13 @@ using UnityEngine;
 
 public class MoverByArrows : MonoBehaviour
 {
-    float step = 0.01f;
+
+    [SerializeField]
+    float step;
+    
     void Start()
     {
+        step = 0.05f;
     }
 
     void Update()

@@ -8,10 +8,13 @@ using UnityEngine;
 
 public class MoverByAWDS : MonoBehaviour
 {
-    float step = 0.01f;
+
+    [SerializeField]
+    float step;
+
     void Start()
     {
-
+        step = 0.05f;
     }
 
     void Update()

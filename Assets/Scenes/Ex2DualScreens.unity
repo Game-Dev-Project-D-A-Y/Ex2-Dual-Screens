@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1230c34f179470b41b8a4e774f62d4e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  step: 0.01
 --- !u!212 &157724897
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -335,7 +336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.52, y: 5.75}
+  m_AnchoredPosition: {x: -10, y: 5.5}
   m_SizeDelta: {x: 12.444, y: 1.2257044}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &853162926
@@ -569,7 +570,7 @@ GameObject:
   - component: {fileID: 1569768953}
   - component: {fileID: 1569768952}
   m_Layer: 0
-  m_Name: street
+  m_Name: Street
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -633,8 +634,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569768951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: -6.33, z: 0}
-  m_LocalScale: {x: 1.1310195, y: 0.513056, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -752,6 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7b400453a9a7648a2d3b9588af5ebc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  step: 0.01
 --- !u!212 &1854475524
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -853,7 +855,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.83, y: 2.92}
+  m_AnchoredPosition: {x: -4.7, y: 3}
   m_SizeDelta: {x: 12.660952, y: 1.6441045}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1939665761
