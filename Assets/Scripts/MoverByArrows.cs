@@ -10,7 +10,7 @@ public class MoverByArrows : MonoBehaviour
     
     [Tooltip("Change step size")]
     [SerializeField]
-    float step = 0.05f;
+    float step;
 
     void Start()
     {
