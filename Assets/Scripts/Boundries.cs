@@ -19,19 +19,19 @@ public class Boundries : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject mazeObject = GameObject.Find("Street");
-        Transform mazeTransform = mazeObject.GetComponent<Transform>();
-        RectTransform mazeRect = mazeObject.GetComponent<RectTransform>();
+        GameObject streetObject = GameObject.Find("Street");
+        Transform streetTransform = streetObject.GetComponent<Transform>();
+        RectTransform streetRect = streetObject.GetComponent<RectTransform>();
 
-        float mazeWidth = mazeRect.rect.width;
-        float mazeHeight = mazeRect.rect.height;
-        float mazeScaleX = mazeRect.transform.localScale.x;
-        float mazeScaleY = mazeRect.transform.localScale.y;
+        float streetWidth = streetRect.rect.width;
+        float streetHeight = streetRect.rect.height;
+        float streetScaleX = streetRect.transform.localScale.x;
+        float streetScaleY = streetRect.transform.localScale.y;
 
-        rightLimit = ( (mazeWidth * mazeScaleX) / 2 - mazeScaleX / (mazeWidth * 2) ) / 2.2f;
+        rightLimit = ( (streetWidth * streetScaleX) / 2 - streetScaleX / (streetWidth * 2) ) / 2.2f;
         leftLimit = -1 * rightLimit;
 
-        topLimit = ( (mazeHeight * mazeScaleY) / 2 - mazeScaleY / (mazeHeight * 2) ) / 2.1f;
+        topLimit = ( (streetHeight * streetScaleY) / 2 - streetScaleY / (streetHeight * 2) ) / 2.1f;
         bottomLimit = -1 * topLimit;
     }
 
