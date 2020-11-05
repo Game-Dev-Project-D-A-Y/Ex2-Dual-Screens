@@ -16,7 +16,7 @@ public class Boundries : MonoBehaviour
 
     float bottomLimit;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update.
     void Start()
     {
         GameObject streetObject = GameObject.Find("Street");
